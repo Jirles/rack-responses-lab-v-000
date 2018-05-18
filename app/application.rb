@@ -4,7 +4,7 @@ class Application
     
     resp = Rack::Response.new
     
-    time = Kernel.rand(0..24)
+    time = Time.now 
     
     resp.write "Current time: #{time}\n"
     resp.write "\n"
