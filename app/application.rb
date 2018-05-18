@@ -11,11 +11,9 @@ class Application
     resp.write "\n"
     
     if time >= 0 && time < 12
-      resp.write "Good morning!"
-    elsif time >= 12 && time < 17 
-      resp.write "Good afternoon!"
+      resp.write "Morning"
     else 
-      resp.write "Good evening!"
+      resp.write "Afternoon"
     end 
     resp.finish
   end 
