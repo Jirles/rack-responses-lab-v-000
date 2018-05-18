@@ -14,6 +14,7 @@ class Application
       resp.write "Good afternoon!"
     else 
       resp.write "Good evening!"
+    end 
     resp.finish
   end 
   
