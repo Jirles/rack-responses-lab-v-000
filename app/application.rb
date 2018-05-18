@@ -10,7 +10,7 @@ class Application
     resp.write "\n"
     resp.write "\n"
     
-    if time >= 0 && time < 12
+    if time.hour >= 0 && time.hour < 12
       resp.write "Morning"
     else 
       resp.write "Afternoon"
